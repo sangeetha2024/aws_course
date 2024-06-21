@@ -101,20 +101,18 @@ Elastic Beanstalk: PaaS that makes it easy to deploy and manage applications.
 EKS (Elastic Kubernetes Service): Managed Kubernetes service running on EC2.
 </details>
 
-<body>
-    <h1> EC2 MCQS </h1>
+ <h1> EC2 MCQS </h1>
 
-    ### 1.Which of the following is a primary advantage of using AWS Lambda?
-    
-     A) Persistent connections
-     B) Reduced latency for long-running processes 
-     C) Automatic scaling and payment based on compute time used 
-     D) Customizable hardware configurations
+### 1.Which of the following is a primary advantage of using AWS Lambda?
 
-    <details>
-        <summary>Click to reveal answer</summary>
-        <p>**Answer: C) Automatic scaling and payment based on compute time used**</p>
-    </details>
+ A) Persistent connections
+ B) Reduced latency for long-running processes 
+ C) Automatic scaling and payment based on compute time used 
+ D) Customizable hardware configurations
 
-</body>
+<details>
+    <summary>Click to reveal answer</summary>
+    <p>**Answer: C) Automatic scaling and payment based on compute time used**</p>
+</details>
+
 
