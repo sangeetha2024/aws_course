@@ -65,9 +65,6 @@ Elastic Load Balancing (ELB): Distributes incoming application traffic across mu
 Right-sizing: Choose the correct instance type and size based on workload requirements to optimize performance and cost.
 Security: Implement least privilege access, regularly update and patch instances, and use security groups and network ACLs effectively.
 Automation: Use Auto Scaling, Elastic Beanstalk, and AWS Lambda for automated 
-</details>
-<details>
-<summary></summary>
 Monitoring and Logging: Use CloudWatch for monitoring and AWS CloudTrail for logging API activity.
 Cost Management: Use AWS Cost Explorer, Trusted Advisor, and Budget to monitor and optimize costs.
 </details>
