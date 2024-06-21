@@ -105,7 +105,7 @@ EKS (Elastic Kubernetes Service): Managed Kubernetes service running on EC2.
 
 ## 1. Which of the following is a primary advantage of using AWS Lambda?
 
-- A) Persistent connections
+- <button>A) Persistent connections</button>
 - B) Reduced latency for long-running processes
 - C) Automatic scaling and payment based on compute time used
 - D) Customizable hardware configurations
