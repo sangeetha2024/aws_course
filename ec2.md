@@ -110,7 +110,7 @@ EKS (Elastic Kubernetes Service): Managed Kubernetes service running on EC2.
  B) Reduced latency for long-running processes 
 
  C) Automatic scaling and payment based on compute time used 
- 
+
  D) Customizable hardware configurations
 
 <details>
@@ -118,4 +118,15 @@ EKS (Elastic Kubernetes Service): Managed Kubernetes service running on EC2.
     <p>**Answer: C) Automatic scaling and payment based on compute time used**</p>
 </details>
 
+### 2. Which of the following instance types would be most suitable for a web application that requires consistent baseline performance?
 
+A. T3
+B. M5
+C. C5
+D. R5
+
+<details>
+ <summary>Click to reveal answer</summary>
+Answer: A. T3
+Explanation: T3 instances provide a baseline level of CPU performance with the ability to burst when needed, making them suitable for applications with consistent baseline usage like web servers.
+</details>
