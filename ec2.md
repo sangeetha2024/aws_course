@@ -36,7 +36,8 @@ VPC (Virtual Private Cloud): Isolated network to launch AWS resources.
 Security Groups: Virtual firewall to control inbound and outbound traffic to instances.
 
 Elastic IPs: Static IPv4 addresses designed for dynamic cloud computing.
-
+</details>
+<details>
 <summary>Storage</summary>
 EBS (Elastic Block Store): Block-level storage volumes for use with EC2 instances. Types include:
 General Purpose SSD (gp2, gp3)
@@ -47,7 +48,8 @@ Instance Store: Temporary block-level storage for instances.
 EFS (Elastic File System): Scalable file storage for use with EC2 instances.
 S3 (Simple Storage Service): Object storage service providing scalability, data availability, security, and performance.
 </details>
-Security and Management
+<details>
+<summary>Security and Management</summary>
 IAM (Identity and Access Management): Manage access to AWS resources securely.
 
 EC2 Key Pairs: Secure login information for your instances.
@@ -57,14 +59,21 @@ EC2 Auto Scaling: Automatically adjusts the number of instances to handle the lo
 CloudWatch: Monitoring service for AWS resources and applications.
 
 Elastic Load Balancing (ELB): Distributes incoming application traffic across multiple targets.
-
-Best Practices
+</details>
+<details>
+<summary>Best Practices</summary>
 Right-sizing: Choose the correct instance type and size based on workload requirements to optimize performance and cost.
 Security: Implement least privilege access, regularly update and patch instances, and use security groups and network ACLs effectively.
-Automation: Use Auto Scaling, Elastic Beanstalk, and AWS Lambda for automated infrastructure management.
+Automation: Use Auto Scaling, Elastic Beanstalk, and AWS Lambda for automated 
+</details>
+<details>
+<summary></summary>
 Monitoring and Logging: Use CloudWatch for monitoring and AWS CloudTrail for logging API activity.
 Cost Management: Use AWS Cost Explorer, Trusted Advisor, and Budget to monitor and optimize costs.
-Additional Services Integration
+</details>
+<details>
+<summary>Additional Services Integration</summary>
+
 RDS (Relational Database Service): Managed relational database service integrating with EC2.
 
 Lambda: Serverless compute service that triggers code based on events.
@@ -72,3 +81,4 @@ Lambda: Serverless compute service that triggers code based on events.
 Elastic Beanstalk: PaaS that makes it easy to deploy and manage applications.
 
 EKS (Elastic Kubernetes Service): Managed Kubernetes service running on EC2.
+</details>
