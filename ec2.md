@@ -105,28 +105,44 @@ EKS (Elastic Kubernetes Service): Managed Kubernetes service running on EC2.
 
 ### 1.Which of the following is a primary advantage of using AWS Lambda?
 
- A) Persistent connections
-
- B) Reduced latency for long-running processes 
-
- C) Automatic scaling and payment based on compute time used 
-
- D) Customizable hardware configurations
+<ul>
+  <li>A) Persistent connections</li>
+  <li>B) Reduced latency for long-running processes</li>
+  <li>C) Automatic scaling and payment based on compute time used</li>
+  <li>D) Customizable hardware configurations</li>
+</ul>
 
 <details>
-    <summary>Click to reveal answer</summary>
-    <p>**Answer: C) Automatic scaling and payment based on compute time used**</p>
+  <summary>Click to reveal answer</summary>
+  <p id="answer" style="color: black; font-weight: bold;">Answer: C) Automatic scaling and payment based on compute time used</p>
 </details>
 
 ### 2. Which of the following instance types would be most suitable for a web application that requires consistent baseline performance?
 
-A. T3
-B. M5
-C. C5
-D. R5
+<ul>
+  <li>A. T3</li>
+  <li>B. M5</li>
+  <li>C. C5</li>
+  <li>D. R5</li>
+</ul>
 
 <details>
- <summary>Click to reveal answer</summary>
-Answer: A. T3
-Explanation: T3 instances provide a baseline level of CPU performance with the ability to burst when needed, making them suitable for applications with consistent baseline usage like web servers.
+  <summary>Click to reveal answer</summary>
+  <p id="answer" style="color: black;">Answer: A. T3</p>
+  <p style="color: black;">Explanation: T3 instances provide a baseline level of CPU performance with the ability to burst when needed, making them suitable for applications with consistent baseline usage like web servers.</p>
 </details>
+
+
+
+
+
+<script>
+  // Function to change color on reveal
+  function revealAnswer() {
+    var answer = document.getElementById('answer');
+    answer.style.color = 'green'; // Change color to green on reveal
+  }
+
+  // Adding event listener to details element for click event
+  document.querySelector('details').addEventListener('toggle', revealAnswer);
+</script>
