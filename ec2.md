@@ -1,6 +1,6 @@
 ### Overview of EC2
 <details>
-<summary>Elastic Compute Cloud (EC2)</summary>
+<summary><h1>Elastic Compute Cloud (EC2)<h1></summary>
 EC2 is a web service that provides resizable compute capacity in the cloud, allowing for easy scalability and flexibility. It enables running applications without the need to invest in hardware upfront and allows scaling capacity up or down as needed.
 </details>
 <details>
