@@ -367,3 +367,137 @@ D) P3
   <summary>Click to reveal answer</summary>
   <p id="answer" style="color: red;">Answer: D) P3</p>
 </details>
+
+
+### 21. What does an EC2 instance placement group enable?
+A) Better compliance with regional data residency requirements.
+
+B) Enhanced control over EC2 instance networking.
+
+C) Logical grouping of EC2 instances within a single Availability Zone.
+
+D) Physical grouping of EC2 instances to reduce latency and improve network throughput.
+
+<details>
+  <summary>Click to reveal answer</summary>
+  <p id="answer" style="color: red;">Answer: D) Physical grouping of EC2 instances to reduce latency and improve network throughput.</p>
+</details>
+
+### 22. Which AWS service allows you to monitor the performance of EC2 instances and other AWS resources?
+A) Amazon CloudWatch
+
+B) AWS X-Ray
+
+C) AWS Inspector
+
+D) AWS Trusted Advisor
+
+<details>
+  <summary>Click to reveal answer</summary>
+  <p id="answer" style="color: red;">Answer: A) Amazon CloudWatch</p>
+</details>
+
+### 23. What is the maximum number of Elastic IP addresses that can be associated with an EC2 instance by default?
+A) 1
+
+B) 5
+
+C) 10
+
+D) 15
+<details>
+  <summary>Click to reveal answer</summary>
+  <p id="answer" style="color: red;">Answer: A) 1</p>
+</details>
+
+### 24. Which instance type family offers a balance of compute, memory, and network resources, and is ideal for applications that require a significant amount of memory?
+A) T3
+
+B) M5
+
+C) R5
+
+D) X1
+<details>
+  <summary>Click to reveal answer</summary>
+  <p id="answer" style="color: red;">Answer: C) R5</p>
+</details>
+
+### 25. How does an EC2 Dedicated Host differ from a traditional EC2 instance?
+A) Dedicated Hosts offer higher availability than traditional EC2 instances.
+
+B) Dedicated Hosts allow you to bring your own hardware for hosting EC2 instances.
+
+C) Dedicated Hosts provide more customization options for hardware configurations.
+
+D) Dedicated Hosts provide dedicated physical servers for hosting EC2 instances.
+<details>
+  <summary>Click to reveal answer</summary>
+  <p id="answer" style="color: red;">Answer: D) Dedicated Hosts provide dedicated physical servers for hosting EC2 instances.</p>
+</details>
+
+### 26. Which feature of EC2 allows you to securely store and manage access keys, passwords, and certificates that you use with your AWS resources?
+A) AWS IAM (Identity and Access Management)
+
+B) AWS Secrets Manager
+
+C) AWS Key Management Service (KMS)
+
+D) AWS Artifact
+<details>
+  <summary>Click to reveal answer</summary>
+  <p id="answer" style="color: red;">Answer: B) AWS Secrets Manager</p>
+</details>
+
+### 27. What is the purpose of an EC2 instance user data script?
+A) To configure the instance metadata.
+
+B) To specify the IAM role assigned to the instance.
+
+C) To bootstrap the instance with desired configurations and actions during launch.
+
+D) To define the instance's network settings.
+<details>
+  <summary>Click to reveal answer</summary>
+  <p id="answer" style="color: red;">Answer: C) To bootstrap the instance with desired configurations and actions during launch.</p>
+</details>
+
+### 28. Which AWS service allows you to automate the deployment, monitoring, and scaling of containerized applications using Docker containers on EC2 instances?
+A) AWS Lambda
+
+B) Amazon ECS (Elastic Container Service)
+
+C) AWS Elastic Beanstalk
+
+D) Amazon EKS (Elastic Kubernetes Service)
+
+<details>
+  <summary>Click to reveal answer</summary>
+  <p id="answer" style="color: red;">Answer: B) Amazon ECS (Elastic Container Service)</p>
+</details>
+
+### 29. Which EC2 instance type family is optimized for applications that require high-performance processors and are used for applications such as gaming servers, scientific modeling, and HPC?
+A) T3
+
+B) M5
+
+C) C5
+
+D) G4
+<details>
+  <summary>Click to reveal answer</summary>
+  <p id="answer" style="color: red;">Answer: D) G4</p>
+</details>
+
+### 30. What is the role of an EC2 instance's Security Group?
+A) To manage access to Amazon S3 buckets associated with the EC2 instance.
+
+B) To define firewall rules that control inbound and outbound traffic to the EC2 instance.
+
+C) To specify the IAM policies that govern access to the EC2 instance.
+
+D) To configure the instance's virtual networking environment (VPC).
+<details>
+  <summary>Click to reveal answer</summary>
+  <p id="answer" style="color: red;">Answer: B) To define firewall rules that control inbound and outbound traffic to the EC2 instance.</p>
+</details>
